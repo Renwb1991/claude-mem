@@ -65,10 +65,11 @@ hooks.json（触发）
 ## 第三层 · 懂它怎么接入 Claude Code（接口视角：使用与原理的交界）
 
 > 目标：理解「插件是如何被 Claude Code 调起来的」——这是使用与原理的分水岭。
+> 📖 **本层完整讲义：[`03-接入接口.md`](./03-接入接口.md)**
 
-- [ ] 8. ⭐ hook 生命周期总入口：谁在什么时机被调 —— `plugin/hooks/hooks.json`（看 `SessionStart / UserPromptSubmit / PostToolUse`）
-- [ ] 9. hook 命令分发与统一响应 —— `src/cli/hook-command.ts`、`src/hooks/hook-response.ts`
-- [ ] 10. 每个 hook 对应的处理器（按触发顺序读）—— `src/cli/handlers/`：`session-init → context → user-message → observation → file-edit → summarize`
+- [x] 8. ⭐ hook 生命周期总入口：谁在什么时机被调 —— `plugin/hooks/hooks.json`（看 `SessionStart / UserPromptSubmit / PostToolUse`）
+- [x] 9. hook 命令分发与统一响应 —— `src/cli/hook-command.ts`、`src/hooks/hook-response.ts`
+- [x] 10. 每个 hook 对应的处理器（按触发顺序读）—— `src/cli/handlers/`：`session-init → context → user-message → observation → file-edit → summarize`
 
 **结束标准**：能回答「Claude Code 每发生一件事，claude-mem 的哪段代码被执行？入参出参是什么？」
 
