@@ -40,11 +40,12 @@ hooks.json（触发）
 ## 第一层 · 会用它（黑盒视角：只看现象，不看代码）
 
 > 目标：先有「它到底帮我做了什么」的肌肉记忆，后面所有代码都有落点。
+> 📖 **本层完整讲义：[`01-会用它-黑盒视角.md`](./01-会用它-黑盒视角.md)**
 
-- [ ] 1. 读产品介绍，建立一句话认知：跨会话记忆 —— `README.md`
-- [ ] 2. 亲自装一次、跑一次，观察真实产物 —— `npm run build-and-sync`，再看 `~/.claude-mem/claude-mem.db`、`~/.claude-mem/chroma/`
-- [ ] 3. 用自带技能体验完整闭环 —— `plugin/skills/how-it-works`、`mem-search`、`timeline-report`
-- [ ] 4. 打开后台 UI 看记忆/时间线 —— worker 的 `GET /` 与 `/stream`（见 `src/services/worker/README.md`）
+- [x] 1. 读产品介绍，建立一句话认知：跨会话记忆 —— `README.md`
+- [x] 2. 亲自装一次、跑一次，观察真实产物 —— `~/.claude-mem/claude-mem.db`（`observations` 表）、`settings.json`、`worker.pid`
+- [x] 3. 用自带技能体验完整闭环 —— `plugin/skills/how-it-works`、`mem-search`、`timeline-report`
+- [x] 4. 打开后台 UI 看记忆/时间线 —— worker 的 `GET /` 与 `/stream`（见 `src/services/worker/README.md`）
 
 **结束标准**：能回答「一次会话结束后，我的哪些操作被记住了？下次会话开头多出来的那段上下文长什么样？」
 
