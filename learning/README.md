@@ -78,10 +78,11 @@ hooks.json（触发）
 ## 第四层 · 懂数据模型（原理的地基：先看「记忆长什么样」）
 
 > 目标：在读读写逻辑之前，先固定住数据结构，否则后面会飘。
+> 📖 **本层完整讲义：[`04-数据模型.md`](./04-数据模型.md)**
 
-- [ ] 11. ⭐ 记忆的核心数据结构 —— `src/core/schemas/`：`memory-item.ts`、`session.ts`、`project.ts`、`agent-event.ts`
-- [ ] 12. 落库表结构与读写 —— `src/storage/sqlite/`：`schema.ts` → `memory-items.ts` → `projects.ts` → `serde.ts`
-- [ ] 13. 对照第二套后端理解存储抽象 —— `src/storage/postgres/`（cloud-sync 用）
+- [x] 11. ⭐ 记忆的核心数据结构 —— `src/core/schemas/`：`memory-item.ts`、`session.ts`、`project.ts`、`agent-event.ts`
+- [x] 12. 落库表结构与读写 —— `src/storage/sqlite/`：`schema.ts` → `memory-items.ts` → `projects.ts` → `serde.ts`
+- [x] 13. 对照第二套后端理解存储抽象 —— `src/storage/postgres/`（cloud-sync 用）
 
 ---
 
