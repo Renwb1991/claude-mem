@@ -89,10 +89,11 @@ hooks.json（触发）
 ## 第五层 · 懂写入原理（记忆是怎么「生成」的）
 
 > 目标：主线的前半段——从原始会话记录到结构化记忆。
+> 📖 **本层完整讲义：[`05-写入原理.md`](./05-写入原理.md)**
 
-- [ ] 14. ⭐ 会话记录监听与处理 —— `src/services/transcripts/`：`watcher.ts → processor.ts → state.ts`
-- [ ] 15. ⭐ 压缩核心：提示词 + 输出解析 —— `src/sdk/`：`prompts.ts`、`parser.ts`、`output-classifier.ts`、`hardened-options.ts`
-- [ ] 16. 多模型 Provider 适配与容错 —— `src/services/worker/`：`ClaudeProvider.ts`、`GeminiProvider.ts`、`provider-errors.ts`、`retry.ts`
+- [x] 14. ⭐ 会话记录监听与处理 —— `src/services/transcripts/`：`watcher.ts → processor.ts → state.ts`
+- [x] 15. ⭐ 压缩核心：提示词 + 输出解析 —— `src/sdk/`：`prompts.ts`、`parser.ts`、`output-classifier.ts`、`hardened-options.ts`
+- [x] 16. 多模型 Provider 适配与容错 —— `src/services/worker/`：`ClaudeProvider.ts`、`GeminiProvider.ts`、`provider-errors.ts`、`retry.ts`
 
 ---
 
