@@ -100,10 +100,11 @@ hooks.json（触发）
 ## 第六层 · 懂读取原理（记忆是怎么「找回并注入」的）
 
 > 目标：主线的后半段——从检索到上下文注入。
+> 📖 **本层完整讲义：[`06-读取原理.md`](./06-读取原理.md)**
 
-- [ ] 17. 检索逻辑（含向量检索）—— `src/services/worker/SearchManager.ts` + `search/`
-- [ ] 18. ⭐ 上下文组装与 token 预算 —— `src/services/context/`：`ContextBuilder.ts → ObservationCompiler.ts → TokenCalculator.ts → sections/`
-- [ ] 19. 以 MCP 工具形式对外暴露检索 —— `src/servers/mcp-server.ts`、`src/server/mcp/recall-mcp-server.ts`
+- [x] 17. 检索逻辑（含向量检索）—— `src/services/worker/SearchManager.ts` + `search/`
+- [x] 18. ⭐ 上下文组装与 token 预算 —— `src/services/context/`：`ContextBuilder.ts → ObservationCompiler.ts → TokenCalculator.ts → sections/`
+- [x] 19. 以 MCP 工具形式对外暴露检索 —— `src/servers/mcp-server.ts`、`src/server/mcp/recall-mcp-server.ts`
 
 ---
 
