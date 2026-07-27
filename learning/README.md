@@ -111,10 +111,11 @@ hooks.json（触发）
 ## 第七层 · 懂运行时编排（把所有能力串起来的后台进程）
 
 > 目标：理解那个常驻 HTTP 服务如何调度前面所有模块。
+> 📖 **本层完整讲义：[`07-运行时编排.md`](./07-运行时编排.md)**
 
-- [ ] 20. 路由层（对照第 5 步的 README）—— `src/services/worker/http/routes/`
-- [ ] 21. 会话状态与实时推送 —— `SessionManager.ts`、`SessionMessageBuffer.ts`、`SSEBroadcaster.ts`
-- [ ] 22. worker 启停与进程守护 —— `worker-service.ts`、`worker-spawner.ts`、`src/supervisor/`
+- [x] 20. 路由层（对照第 5 步的 README）—— `src/services/worker/http/routes/`
+- [x] 21. 会话状态与实时推送 —— `SessionManager.ts`、`SessionMessageBuffer.ts`、`SSEBroadcaster.ts`
+- [x] 22. worker 启停与进程守护 —— `worker-service.ts`、`worker-spawner.ts`、`src/supervisor/`
 
 ---
 
