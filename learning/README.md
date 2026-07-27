@@ -121,11 +121,13 @@ hooks.json（触发）
 
 ## 第八层 · 进阶专题（按需选读，不影响主线）
 
-- [ ] 云端同步（近期主线）—— `src/services/sync/`、`plugin/skills/cloud-sync/`
-- [ ] 知识 corpus —— `src/services/worker/knowledge/`、`plugin/skills/knowledge-agent/`
-- [ ] 安装/运维 CLI —— `src/npx-cli/commands/`、`src/services/install/`
-- [ ] 跨编辑器适配 —— `src/integrations/opencode-plugin`、`cursor-hooks/`
-- [ ] 用测试反向验证理解 —— `tests/` 对应模块
+> 📖 **本层完整讲义：[`08-进阶专题.md`](./08-进阶专题.md)**
+
+- [x] 23. 云端同步（近期主线）—— `src/services/sync/`、`plugin/skills/cloud-sync/`
+- [x] 24. 知识 corpus —— `src/services/worker/knowledge/`、`plugin/skills/knowledge-agent/`
+- [x] 25. 安装/运维 CLI —— `src/npx-cli/commands/`、`src/services/install/`
+- [x] 26. 跨编辑器适配 —— `src/integrations/opencode-plugin`、`cursor-hooks/`
+- [x] 27. 用测试反向验证理解 —— `tests/` 对应模块
 
 ---
 
